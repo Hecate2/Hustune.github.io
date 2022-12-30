@@ -1,27 +1,64 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>珂学永存</title>
-        <link rel="stylesheet" type="text/css" href="./index.css">
-    </head>
-    <body>
-        <div class="nav">
-            <ul>
-                <li><h1>Chtholly</h1></li>
-                <li><a href="">同人</a></li>
-                <li><a href="">珂图</a></li>
-            </ul>
-            
+
+<head>
+    <title>珂学永存</title>
+    <link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li>
+                <h1>Chtholly</h1>
+            </li>
+            <li><a href=".">首页</a></li>
+            <li><a href="">同人</a></li>
+            <li><a href="">珂图</a></li>
+        </ul>
+    </div>
+    <div class="topImage">
+        <img id="topImg" src="">
+    </div>
+    <div class="article">
+        <h3>
+            <pre style="font-size:larger;">
+                こんなにも、たくさんの幸せをあの人に分けてもらった
+                だから、きっと
+                今の、私は
+                誰が何と言おうと
+                
+                <pre style="display:inline-block;color:rgb(255,44,104);">世界一、</pre><pre style="display:inline-block;color:rgb(103, 183, 209);">幸せな女の子だ</pre>
+            </pre>
+        </h3>
+        <div class="announcement">
+            <a href="./announcement.html"><img src="./img/announcement.jpg"></a>
+
+            <h3 style="display: inline-block;">
+                <pre style="display: inline-block;color:rgb(255,44,104);">❀</pre>
+            </h3>
+            <h3 style="display: inline-block;">
+                <p>
+                    <a href="./announcement.html"  style="color:rgb(105, 187, 214);">
+                        建站公告
+                    </a>
+                </p>
+            </h3>
+            <h3 style="display: inline-block;">
+                <pre style="display: inline-block;color:rgb(255,44,104);">❀</pre>
+            </h3>
         </div>
-        <div class="topImage">
-            <img src="./mainPage.jpg">
-        </div>
-        <div class="article">
-        
-        </div>
-        
-        <script>
-            alert("欢迎回家");
-        </script>
-    </body>
+    </div>
+
+    <script>
+        alert("欢迎回家");
+        //Random topImg
+        var imgList = new Array();
+        imgList = ["./img/K1.png", "./img/K2.png", "./img/K3.jpg", "./img/K4.jpg"]
+
+        var topImg = document.getElementById("topImg");
+        topImg.setAttribute("src", imgList[Math.floor(Math.random() * imgList.length)]);
+    </script>
+</body>
+
 </html>

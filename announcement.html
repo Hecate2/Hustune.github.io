@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>珂学永存</title>
+    <link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li>
+                <h1>Chtholly</h1>
+            </li>
+            <li><a href=".">首页</a></li>
+            <li><a href="">同人</a></li>
+            <li><a href="">珂图</a></li>
+        </ul>
+    </div>
+    <div class="topImage">
+        <img id="topImg" src="">
+    </div>
+    <div class="article">
+        
+    </div>
+
+    <script>
+        alert("欢迎回家");
+        //Random topImg
+        var imgList = new Array();
+        imgList = ["./img/K1.png", "./img/K2.png", "./img/K3.jpg", "./img/K4.jpg"]
+
+        var topImg = document.getElementById("topImg");
+        topImg.setAttribute("src", imgList[Math.floor(Math.random() * imgList.length)]);
+    </script>
+</body>
+
+</html>
