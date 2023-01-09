@@ -1,0 +1,45 @@
+div.author{
+    text-align: left;
+    background: white;
+    padding: 10px;
+    height: 80px;
+
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 30px;
+}
+div.author img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    border-style: solid;
+    border: 10px;
+    border-color: rgb(105, 187, 214);
+    
+    float: left;
+}
+div.author h2,div.author p{
+    display: inline-block;   
+}
+div.author a{
+    color: black;
+}
+div.author p a:cover{
+    box-shadow:0px 2px 0px 0px rgb(0,0,0);
+}
+
+div.passage{
+    text-align: left;
+    margin-left: 10px;
+}
+div.passage a{
+    color: black;
+}
+div.passage pre{
+    white-space: pre-wrap; 
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+}
