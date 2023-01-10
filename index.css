@@ -77,20 +77,39 @@ div.article div.announcement a:hover img{
     opacity: 80%;
 }
 
+
+div.doujin-dnf ul
+{
+  text-align: center;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.doujin-dnf ul > li{
+  flex: 30%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 div.doujin-dnf{
-    margin-left: 5%;
+    /*margin-left: 5%;*/
     padding: 15px;
     width: 95%;
-    margin-right: 5%;
-    margin-right: 10%;
+    /*margin-right: 5%;*/
+    /*margin-right: 10%;*/
     background:rgba(246, 246, 246, 0.85);
     border-radius: 20px;
     white-space: nowrap;
     overflow-y:auto;
 }
+/*
 div.doujin-dnf::-webkit-scrollbar{
     display: none;
 }
+*/
 
 .doujin-item{
     margin-left: 5px;
@@ -98,7 +117,7 @@ div.doujin-dnf::-webkit-scrollbar{
     background-color: none;
     width: 35%;
     height: 25%;
-    display: inline-block;
+    display: contents;
     border-radius: 5px;
 }
 .doujin-item-img img{

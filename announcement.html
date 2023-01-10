@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>珂学永存</title>
-    <link rel="stylesheet" type="text/css" href="./index.css">
+    <link rel="stylesheet" type="text/css" href="/index.css">
 </head>
 
 <body>
@@ -18,9 +18,6 @@
             <li><a href="">珂图</a></li>
         </ul>
     </div>
-    <div class="topImage">
-        <img id="topImg" src="">
-    </div>
     <div class="article">
         <h3>
             <pre>
@@ -30,7 +27,7 @@
 
             </pre>
         </h3>
-        <img style="width: 80%;height:100%; border-radius: 20px;" src="./img/K6.jpg">
+        <img style="width: 80%;height:100%; border-radius: 20px;" src="img/K6.jpg">
         <p>
             我永远喜欢珂朵莉.jpg
         </p>
@@ -44,14 +41,7 @@
 
     </div>
 
-    <script>
-        //Random topImg
-        var imgList = new Array();
-        imgList = ["./img/K1.jpg", "./img/K2.jpg", "./img/K3.jpg", "./img/K4.jpg"]
-
-        var topImg = document.getElementById("topImg");
-        topImg.setAttribute("src", imgList[Math.floor(Math.random() * imgList.length)]);
-    </script>
+    <script src="/randomTopImgAndNav.js"></script>
 </body>
 
 </html>
