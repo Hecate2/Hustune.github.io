@@ -4,8 +4,8 @@
 <head>
     <title>珂学永存</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" type="text/css" href="../../index.css"> 
-    <link rel="stylesheet" type="text/css" href="../../doujins.css">
+    <link rel="stylesheet" type="text/css" href="/index.css">
+    <link rel="stylesheet" type="text/css" href="/doujins/doujins.css">
 </head>
 
 <body>
@@ -14,7 +14,7 @@
             <li>
                 <h1>Chtholly</h1>
             </li>
-            <li><a href="../../index.html">首页</a></li>
+            <li><a href="/index.html">首页</a></li>
             <li><a href="">同人</a></li>
             <li><a href="">珂图</a></li>
         </ul>
@@ -59,14 +59,7 @@
         </div>
     </div>
 
-    <script>
-        //Random topImg
-        var imgList = new Array();
-        imgList = ["../../img/K1.jpg", "../../img/K2.jpg", "../../img/K3.jpg", "../../img/K4.jpg"]
-
-        var topImg = document.getElementById("topImg");
-        topImg.setAttribute("src", imgList[Math.floor(Math.random() * imgList.length)]);
-    </script>
+    <script src="/randomTopImgAndNav.js"></script>
 </body>
 
 </html>
